@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    background: no-repeat center;
+  }
+
+#navbar{
+    background-color: #9d7a7a;
+}
+#navbar > ul{
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+}
+#navbar > ul > li{
+    list-style: none;
+   padding: 10px;
+}
+#navbar > ul > li> a{
+    text-decoration: none; 
+    color: wheat;
+    margin: 4px;
+    padding: 11px;
+}
+a:hover{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:500px;
+   
+    margin-top: 10px;
+
+}
+#introsec{
+    width: 100vw;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:url("../imgaes/34-342906_person-dancing-png-hd-transparent-person-dancing-hd.png");
+    background-color: bisque;
+    color: whitesmoke;
+}
+.small-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+ .imgsec img{
+    width: 100px;
+    height: 60%;
+}
+.box{
+    width: 35%;
+    background-color: hotpink;
+    height: 90%;
+    margin: 5px;
+}
+#sponsec{
+   
+    margin: 20px 0px;
+}
+.container-spo{ 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.imgclass{
+    width: 75%;
+    height: 375px;
+
+}
+#foot{
+    background-color: black;
+    width: 100vw;
+    margin: 6px;
+    height: 40px;
+    color: lemonchiffon;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 26px;;
+}
+#until{
+    padding: 193px;
+}
+.black{
+    color: #eb6e01;
+}
